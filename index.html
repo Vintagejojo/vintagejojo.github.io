@@ -17,6 +17,7 @@
     <title>Jojos Bizarre Portfolio</title>
 </head>
 <body>
+        <header>
             <nav>
                 <div class="hamburger">
                     <div class="line"></div>
@@ -24,12 +25,14 @@
                     <div class="line"></div>
                 </div>
                 <ul class="nav_links">
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#jojo_zone">About Me</a></li>
+                    <li><a href="#project_zone">Projects</a></li>
                     <li><a href="#">Playground</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="./form.html">Contact Me</a></li>
                 </ul>
             </nav>
+        </header>
     <div class="hero_background">
         <div class="container">
             <div class="row">
@@ -45,9 +48,9 @@
             </div>
         </div>
     </div>
-    <main>
-        <div class="main_bg">
-            <div class="container">
+    <main class="main_bg">
+        <div >
+            <div class="container" id="project_zone">
                 <div class="row work_mods">
                     <div class="col-lg-12 ">
                         <h2 class="line_header"><span>What I've Been Working On</span></h2>
@@ -57,7 +60,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <figure class="imghvr-shutter-out-diag-2" style="background: #000;">
-                            <img src="https://via.placeholder.com/300" alt="placeholder pic">
+                            <img src="./images/umbrella_preview.png" alt="placeholder pic">
                             <figcaption>
                                 <h3>Project Title</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae corrupti blanditiis asperiores, sapiente tempora reiciendis voluptatum eveniet consequatur fuga laboriosam.</p>
@@ -67,7 +70,7 @@
                     </div>
                     <div class="col-lg-4">
                         <figure class="imghvr-shutter-out-diag-2">
-                            <img src="https://via.placeholder.com/300" alt="placeholder pic">
+                            <img src="./images/detroix_preview.png" alt="placeholder pic">
                             <figcaption>
                                 <h3>Project Title</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae corrupti blanditiis asperiores, sapiente tempora reiciendis voluptatum eveniet consequatur fuga laboriosam.</p>
@@ -75,9 +78,9 @@
                             <a href="#"></a>
                         </figure>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-12">
                         <figure class="imghvr-shutter-out-diag-2" >
-                            <img src="https://via.placeholder.com/300" alt="placeholder pic">
+                            <img src="./images/under_construction.jpg" alt="placeholder pic">
                             <figcaption>
                                 <h3>Project Title</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae corrupti blanditiis asperiores, sapiente tempora reiciendis voluptatum eveniet consequatur fuga laboriosam.</p>
@@ -93,32 +96,32 @@
                 <div class="work_mods"></div>
                 <!--  ^^ Nothing Wrong with a little space -->
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-12">
                         <figure class="imghvr-shutter-out-diag-2" >
-                            <img src="https://via.placeholder.com/300" alt="placeholder pic">
+                            <img src="./images/under_construction.jpg" alt="placeholder pic">
                             <figcaption>
-                                <h3>Project Title</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae corrupti blanditiis asperiores, sapiente tempora reiciendis voluptatum eveniet consequatur fuga laboriosam.</p>
+                                <h3>??????</h3>
+                                <p>Unknown Project. Powerlevel is immesurable. Stay tuned!</p>
                             </figcaption>
                             <a href="#"></a>
                         </figure>
                     </div>
                     <div class="col-lg-4">
                         <figure class="imghvr-shutter-out-diag-2" >
-                            <img src="https://via.placeholder.com/300" alt="placeholder pic">
+                            <img src="./images/under_construction.jpg" alt="placeholder pic">
                             <figcaption>
-                                <h3>Project Title</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae corrupti blanditiis asperiores, sapiente tempora reiciendis voluptatum eveniet consequatur fuga laboriosam.</p>
+                                <h3>??????</h3>
+                                <p>Unknown Project. Powerlevel is immesurable. Stay tuned!</p>
                             </figcaption>
                             <a href="#"></a>
                         </figure>
                     </div>
                     <div class="col-lg-4">
                         <figure class="imghvr-shutter-out-diag-2" >
-                            <img src="https://via.placeholder.com/300" alt="placeholder pic">
+                            <img src="./images/under_construction.jpg" alt="placeholder pic">
                             <figcaption>
-                                <h3>Project Title</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae corrupti blanditiis asperiores, sapiente tempora reiciendis voluptatum eveniet consequatur fuga laboriosam.</p>
+                                <h3>??????</h3>
+                                <p>Unknown Project. Powerlevel is immesurable. Stay tuned!</p>
                             </figcaption>
                             <a href="#"></a>
                         </figure>
@@ -138,7 +141,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="wrapper">
-                        <div class="sin_team">
+                        <div class="sin_team" id="jojo_zone">
                             <img src="./images/wassupjojo.jpg" alt="cute lil fella">
                             <h3>Jordan Roland</h3>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod beatae assumenda iure, distinctio quas aut ad expedita quaerat dolor minus laudantium dignissimos dolores atque nihil eaque odit dolore eius corporis perferendis ex? Amet animi obcaecati nam corporis, error culpa illum quos, repellendus soluta facilis non officiis nesciunt blanditiis magni deserunt porro. Id dolorum veniam itaque, ipsam dolorem quia magnam repellat?</p>
@@ -156,7 +159,7 @@
                     <!-- ok this is the next handle(social media) -->
                     <div class="handle_div">
                         
-                        <a href="https://twitter.com/rusticjojo">Github<img src="./images/SVG/github.svg" alt=""></a>
+                        <a href="https://github.com/vintagejojo">Github<img src="./images/SVG/github.svg" alt=""></a>
                     <p>
                         I have myriad of top secret projects that can only be found on Github. Do you even git bro? 
                     </p>
@@ -164,7 +167,7 @@
                     <!-- Next Handle -->
                     <div class="handle_div">
                         
-                        <a href="https://twitter.com/rusticjojo">Linkedin<img src="./images/SVG/linkedin.svg"></a>
+                        <a href="https://www.linkedin.com/in/jordan-roland-28a28359/">Linkedin<img src="./images/SVG/linkedin.svg"></a>
                         <p>
                             I have plenty more headshots on my Linkedin! Feel free to check me out.
                         </p>
@@ -192,3 +195,4 @@
 <script src="./js/app.js"></script>
 </body>
 </html>
+

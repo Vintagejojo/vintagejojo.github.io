@@ -4,14 +4,15 @@ body {
 }
 
  nav {
-    background: #7B95D5;
+    background: #57427b;
     height: 8vh;
+    width: 100%;
 }
 
 .nav_links {
     display: flex;
     list-style: none;
-    width: 50%; 
+    width: 60%; 
     height: 100%;
     justify-content: space-around;
     align-items: center;
@@ -27,13 +28,28 @@ body {
 
 .hero_background {
     /* position: relative; */
-    background-image: url("/HTML-CSS/main_projects/portfolio_jordanroland/images/chris-j-davis-PT_9ux0j-x4-unsplash.jpg");
+    background-image: url("../images/chris-j-davis-PT_9ux0j-x4-unsplash.jpg");
     width: 100%;
     height: calc(100vh - 8vh);
     /* display: block; */
     opacity: 0.8;
     margin-bottom: 55px;
     background-size: cover;
+}
+
+.hero_background_form {
+    /* position: relative; */
+    background-image: url("../images/chris-j-davis-PT_9ux0j-x4-unsplash.jpg");
+    width: 100%;
+    height: calc(100vh - 8vh);
+    /* display: block; */
+    opacity: 0.6;
+    /* margin-bottom: 55px; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .brand_div {
@@ -67,12 +83,24 @@ p.job_title {
     display: inline;
     font-size: 2vh;
     font-family: 'Press Start 2P', cursive;
-    top: 55%;
+    top: 58%;
     left: 45%;
     z-index: 1;
     color: #b9bfcf;
     text-shadow: 5px 1px 5px #5d2c2b
     /* height: 12em; */
+}
+/* media query below for front page text */
+@media screen and (max-width: 768px) {
+    h1.brand_mods {
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    p.job_title {
+        font-size: 2vh;
+        text-align: center;
+    }
 }
 
 /* Ok so this is the animated hamburger menu*/
@@ -125,7 +153,80 @@ p.job_title {
 
 }
 
+
 /* This is the end of the  hamburger mods  */
+
+/* Start of the form css */
+
+.cont_mods {
+    width: auto;
+    height: 800px;
+}
+.contact_title {
+    /* margin-top: 100px; */
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact_title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form_control {
+    width: 600px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+/*
+ End of the form css ^^^ */
+
+.main_bg {
+    background: whitesmoke;
+    width: 100%;
+    height:;
+    background-size: contain;
+    opacity: 0.6;
+
+}
 
 .profile_pic {
     height: 100%;
@@ -145,7 +246,7 @@ p.job_title {
 h2.line_header {
     width: 100%; 
     text-align:center; 
-    border-bottom: 1px solid #000; 
+    border-bottom: 5px groove #7B95D5; 
     line-height:0.1em; 
     margin:25px 0 20px;
     font-size: 35px;
@@ -156,10 +257,16 @@ h2 span {
     padding:0 10px; 
     }
 
+.imghvr-shutter-out-diag-2 img {
+    height: 300px;
+    width: 300px;
+    background-size: inherit;
+}
+
     /* footer section */
 
     .bottom_mods{
-        background: #0056b3;
+        background: #57427b;
         width: auto;
         height: auto;
     }
@@ -176,7 +283,7 @@ h2 span {
     box-shadow: 0 2px 20px rgba(0,0,0,0.8);
     padding: 15px;
     color: #fff;
-    background: #7B95D5; /
+    background: transparent; 
     border-radius: 5px 20px 5px;
 }
 
@@ -199,7 +306,7 @@ h2 span {
 
 .handle_div {
     margin-bottom: 40px;
-    background: #7b95d5;
+    background: transparent;
     box-shadow: 0 2px 20px rgba(0,0,0,0.8); 
     border-radius: 5px 20px 5px;
 }
