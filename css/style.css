@@ -27,9 +27,8 @@ body {
 }
 
 .hero_background {
-    /* position: relative; */
     background-image: url("../images/chris-j-davis-PT_9ux0j-x4-unsplash.jpg");
-    width: 100%;
+    width: 100vw;
     height: calc(100vh - 8vh);
     /* display: block; */
     opacity: 0.8;
@@ -256,6 +255,14 @@ h2 span {
     background:#f4f2f7;
     padding:0 10px; 
     }
+
+/* If the screen size is 480px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 480px) {
+    h2.line_header {
+      font-size: 20px;
+    }
+  }    
 
 .imghvr-shutter-out-diag-2 img {
     height: 300px;
