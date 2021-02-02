@@ -194,7 +194,11 @@ form {
     display: block;
 }
 
+/* Figure A tag mods below */
 
+/* figure a.teaser_photo {
+    opacity: 1;
+} */
 
 input {
     height: 45px;
@@ -223,7 +227,7 @@ form .submit:hover {
     width: 100%;
     height:;
     background-size: contain;
-    opacity: 0.6;
+    opacity: 1;
 
 }
 
