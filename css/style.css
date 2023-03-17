@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background: #f4f2f7;
+    background:#57427b;
 }
 
  nav {
@@ -223,9 +223,9 @@ form .submit:hover {
  End of the form css ^^^ */
 
 .main_bg {
-    background: whitesmoke;
+    background: #57427b;
     width: 100%;
-    height:;
+    height:auto;
     background-size: contain;
     opacity: 1;
 
@@ -249,14 +249,14 @@ form .submit:hover {
 h2.line_header {
     width: 100%; 
     text-align:center; 
-    border-bottom: 5px groove #7B95D5; 
+    border-bottom: 8px ridge #7B95D5; 
     line-height:0.1em; 
     margin:25px 0 20px;
     font-size: 35px;
 }
 
 h2 span {
-    background:#f4f2f7;
+    background:#57427b;
     padding:0 10px; 
     }
 
