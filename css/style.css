@@ -27,7 +27,7 @@ body {
 }
 
 .hero_background {
-    background-image: url("../images/keyboard_kid.png");
+    background-image: url("../images/keyboard_kid.webp");
     width: 100vw;
     height: calc(100vh - 8vh);
     /* display: block; */
